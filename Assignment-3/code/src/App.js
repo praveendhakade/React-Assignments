@@ -10,7 +10,7 @@ const employee = {
   phone:478125462,
   employeeId:"000124",
   Appointment:"9:30:00",
-  profileImg: "ttps://www.w3schools.com/howto/img_avatar.png"
+  profileImg: "https://www.w3schools.com/howto/img_avatar.png"
 }
 
 function App() {
@@ -28,8 +28,10 @@ function App() {
   return (
     <div className="site-container">
     {/* Start Your code here */}
-    <header className='page-header'> <div>
-      <button className='arrow'>{arrow}</button></div>
+    <header className='page-header'>
+     <div><a href='http://localhost:3000/'>
+      <button className='arrow'>{arrow}</button></a>
+      </div>
       <div className='title'>
       <h2>{employee.name}</h2>
       <p>{employee.employeeId}</p>
@@ -52,13 +54,15 @@ function App() {
       <div className='img-check'>
       <label>
       <input type="checkbox"></input></label>
-      <img src="https://www.w3schools.com/howto/img_avatar.png" alt='' width='100' height="100" />
+      <img src={employee.profileImg} alt=''  />
       </div>
       <div className='product-info'>
         <h2>Ervin Howell</h2>
         <p>quia et suscipit nsuscipit recusandae consequuntur expedita et cum nreprehenderit</p>
       </div>
-      <div><button className='arrow'>{arrowRight}</button></div>
+      <div><a href='http://localhost:3000/'>
+      <button className='arrow'>{arrowRight}</button></a>
+      </div>
     </div>
 
     </div>
