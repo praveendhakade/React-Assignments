@@ -4,8 +4,152 @@
 html {
   font-size: 14px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1.5;
   color: black;
   margin:0;
 } 
+
+a {
+  text-decoration: none;
+}
+/* header styles */
+.page-header {
+  border-bottom: 1px solid #30a860;
+ height: 50px;
+ display: flex;
+justify-content: space-around;
+ margin-bottom: 50px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background: #f0f0f0;
+}
+
+.page-header .title {
+  width: 45%;
+  height: 100%;
+  vertical-align: center;
+}
+
+.page-header .title a {
+  font-size: 30px;
+}
+
+.page-header .insta-icon {
+  font-size: 30px;
+  vertical-align: center;
+ width: 45%;
+}
+
+/* posts styles */
+
+.posts-container {
+  margin-top: 100px;
+}
+
+.post{
+  border: 1px solid gray;
+  width: 40%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.post header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .875rem 0;
+  line-height: 1;
+}
+
+.post header div {
+  width: 45%;
+}
+
+.post header .name-loc{
+  text-align: left;
+}
+
+.post header .options {
+  text-align: right;
+}
+
+.post header .name-loc h3 {
+  font-size: 1rem;
+}
+
+.post header .name-loc span {
+  font-size: .875rem;
+}
+
+.post .post-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* post-interaction styles */
+
+.post-interaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-interaction .likes{
+text-align: left;
+  font-size: 1rem;
+}
+
+.post-interaction .likes i {
+  margin-right: 5%;
+}
+
+.post-interaction div {
+  width: 45%;
+}
+
+.post-interaction div #date {
+  text-align: right;
+}
+
+#likes-count {
+  text-align: left;
+  padding-left: 5%;
+  font-size: .875rem;
+  color: #bda7a7;
+}
+
+
+.post-desc {
+  padding: 10px 0;
+
+}
+.post-desc p{
+  text-align: left;
+  padding-left: 5%;
+}
+
+/* footer styles */
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+}
+
+footer a {
+  margin: 0 10px;
+}
