@@ -1,0 +1,29 @@
+{
+    "user":
+                [
+            {"id":1,
+                "name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "The Destroyer",
+            "PostImage": "https://source.unsplash.com/random/150x150?sig=",
+            "date": "Thu Feb 10 2022 11:04:30 GMT+0530 (India Standard Time)"
+            },
+            {"id":2,
+                "name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Nature Lover",
+            "PostImage": "https://source.unsplash.com/random/150x150?sig=",
+            "date": "Thu Feb 10 2022 11:04:30 GMT+0530 (India Standard Time)"
+            },
+            {"id":3,
+                "name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Ek ka double!",
+            "PostImage": "https://source.unsplash.com/random/150x150?sig=",
+            "date": "Thu Feb 10 2022 11:04:30 GMT+0530 (India Standard Time)"
+            }
+            ]
+}
